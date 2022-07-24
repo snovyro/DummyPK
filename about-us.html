@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            height: {
+              600: "600px",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- End of Tailwind -->
+  </head>
+  <body class="antialiased bg-zinc-100">
+    <div
+      class="z-50 flex flex-wrap justify-between md:justify-around items-center h-16 fixed w-full top-0 bg-white drop-shadow"
+    >
+      <a href="./index.html" class="font-bold text-2xl text-zinc-800 px-5 ml-8"
+        >LOGO</a
+      >
+
+      <!-- Mobile -->
+
+      <ul class="md:hidden flex">
+        <div class="group">
+          <button class="p-5 hover:bg-grey-100 w-36">
+            <span>MENU</span>
+          </button>
+          <div>
+            <ul
+              class="group-hover:block !absolute hidden float-right right-0 bg-white drop-shadow"
+            >
+              <div>
+                <button
+                  class="hover:bg-zinc-200 hover:text-black w-36 p-5 block"
+                >
+                  <a href="./news.html"> NEWS </a>
+                </button>
+                <button
+                  class="hover:bg-zinc-200 hover:text-black w-36 p-5 block"
+                >
+                  <a href="./about-us.html"> ABOUT US </a>
+                </button>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </ul>
+
+      <!-- Desktop -->
+
+      <ul class="md:flex justify-around items-center hidden">
+        <a href="./news.html" class="hover:bg-zinc-200 px-8 py-5">NEWS</a>
+        <a href="./about-us.html" class="hover:bg-zinc-200 px-8 py-5"
+          >ABOUT US</a
+        >
+      </ul>
+    </div>
+    <!-- Main Image -->
+    <div class="h-600 relative mb-8">
+      <div class="w-full bg-zinc-800 p-4 absolute top-full">
+        <p class="text-sm xl:text-xl text-white opacity-100 text-center">
+          About Us
+        </p>
+      </div>
+      <img
+        class="w-full h-full object-cover"
+        src="https://picsum.photos/1600/600?grayscale"
+      />
+    </div>
+    <!-- Main Image -->
+
+    <!-- About Us -->
+    <div
+      class="p-16 flex justify-evenly w-full mt-12 h-fit flex-wrap xl:flex-nowrap"
+    >
+      <div class="w-full xl:w-3/12">
+        <img
+          class="w-96 h-96 object-cover"
+          src="https://picsum.photos/1600/600?grayscale&random=5"
+        />
+      </div>
+      <div class="w-full xl:w-7/12 mt-8 xl:mt-0">
+        <p class="text-justify">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
+          perspiciatis architecto possimus. Vero blanditiis corrupti earum
+          consequatur. Alias, delectus nobis aspernatur blanditiis amet sapiente
+          autem distinctio, illo natus, cum modi sequi ipsum. Porro, accusantium
+          laboriosam beatae necessitatibus labore iste, aperiam enim corrupti
+          aspernatur in ex similique amet hic sunt molestiae excepturi, pariatur
+          dolorem expedita! Fuga, voluptatem minima ea omnis consequuntur
+          dolores aperiam eius distinctio alias quasi optio quam vitae atque
+          voluptates? Voluptas odio consectetur cupiditate veritatis commodi
+          ratione error! Nulla error impedit nihil velit dolorem praesentium
+          molestias ipsam. Labore eaque, voluptatem quia provident dolorum
+          itaque totam quisquam adipisci, aspernatur molestiae velit ab dicta
+          illum est animi veritatis quos ducimus quidem vero expedita amet
+          laboriosam! Modi facere nulla maxime accusamus eius magnam nemo
+          blanditiis ratione ducimus libero odit aperiam illum quia, vitae est
+          repellat voluptatum impedit quo fuga eum voluptate doloribus! Quasi
+          rem non recusandae praesentium ex sequi officia vitae impedit?
+          Temporibus assumenda sapiente eum impedit, aliquid culpa odio vitae
+          soluta debitis libero autem earum fugit aperiam? Nobis inventore
+          veritatis nemo, fugit tempore quia culpa voluptatem? Repudiandae sed
+          autem, perferendis impedit odit ipsam, officiis nulla quod ea totam
+          aut quam minus! Sed molestias beatae dolores amet necessitatibus natus
+          a quasi fugit.
+        </p>
+      </div>
+    </div>
+    <!-- About Us -->
+
+    <!-- Team -->
+    <div
+      class="w-full bg-white h-fit xl:h-600 flex flex-wrap justify-center p-12"
+    >
+      <p class="text-2xl font-semibold">Meet Our Team</p>
+      <div class="w-full mt-8 xl:-mt-48 gap-8 flex justify-between flex-wrap">
+        <img
+          class="object-cover rounded w-full xl:w-1/5 h-48 xl:h-full drop-shadow-lg"
+          src="https://picsum.photos/1600/600?grayscale&random=10
+          "
+        />
+        <img
+          class="object-cover rounded w-full xl:w-1/5 h-48 xl:h-full drop-shadow-lg"
+          src="https://picsum.photos/1600/600?grayscale&random=11
+          "
+        />
+        <img
+          class="object-cover rounded w-full xl:w-1/5 h-48 xl:h-full drop-shadow-lg"
+          src="https://picsum.photos/1600/600?grayscale&random=12
+          "
+        />
+        <img
+          class="object-cover rounded w-full xl:w-1/5 h-48 xl:h-full drop-shadow-lg"
+          src="https://picsum.photos/1600/600?grayscale&random=13
+          "
+        />
+      </div>
+    </div>
+    <!-- Team -->
+
+    <!-- Footer -->
+    <div
+      class="mt-12 w-full h-fit xl:h-48 shadow-lg bg-zinc-800 p-12 flex flex-wrap xl:flex-nowrap"
+    >
+      <div class="w-full xl:w-1/3 flex flex-wrap">
+        <p class="text-white font-bold text-2xl">Slogan</p>
+        <p class="mt-2 text-white">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+          quos eos nostrum, est aliquam perspiciatis in facere perferendis
+          voluptas excepturi?
+        </p>
+      </div>
+      <div
+        class="w-full xl:w-1/3 flex flex-wrap xl:justify-center mt-8 xl:mt-0"
+      >
+        <img
+          class="object-cover rounded-full w-12 h-12"
+          src="https://picsum.photos/1600/600?grayscale&random=6
+          "
+        />
+        <div class="w-full flex flex-wrap xl:justify-center">
+          <p class="mt-2 text-white font-bold text-2xl">2022</p>
+        </div>
+      </div>
+      <div class="w-full xl:w-1/3 flex flex-wrap xl:justify-end mt-8 xl:mt-0">
+        <p class="text-white font-bold text-2xl">Visit Us</p>
+        <div class="w-full flex flex-wrap xl:justify-end gap-4 mt-2">
+          <img
+            class="object-cover rounded-full w-12 h-12"
+            src="https://picsum.photos/1600/600?grayscale&random=7
+          "
+          />
+          <img
+            class="object-cover rounded-full w-12 h-12"
+            src="https://picsum.photos/1600/600?grayscale&random=8
+          "
+          />
+          <img
+            class="object-cover rounded-full w-12 h-12"
+            src="https://picsum.photos/1600/600?grayscale&random=9
+          "
+          />
+        </div>
+      </div>
+    </div>
+    <!-- End of Footer -->
+  </body>
+</html>
